@@ -14,3 +14,8 @@ variable "ebs_block_devices" {
   type        = list(any)
   default     = []
 }
+
+variable "nome" {
+  type        = string
+  description = "Nome da instância"
+}
